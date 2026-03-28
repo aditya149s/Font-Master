@@ -1,73 +1,98 @@
-✨ Font Master – Customize Fonts on Any Website
+# ✨ Font Master
 
-Transform your browsing experience with Font Master — a powerful Chrome extension that lets you change the font style of any website to your desired font.
+<p align="center">
+  <b>Change the font of any website — instantly.</b><br/>
+  Make the internet look the way you want.
+</p>
 
-Make the web look the way you want. 🚀
+<p align="center">
+  <img src="./FontSwap.png" alt="Font Master Preview" width="200"/>
+</p>
 
-🔥 Features
-🎨 Apply custom fonts to all websites
-⚡ Instant font switching
-🧠 Clean & lightweight (no lag)
-🌐 Works across all webpages
-🔧 Easy to use UI
-📸 Preview
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Chrome-Extension-green?style=for-the-badge&logo=google-chrome"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Made%20By-Aditya-red?style=for-the-badge"/></a>
+</p>
 
-(Add screenshots here if you want for better engagement)
+---
 
-🚀 Installation
-Option 1: Direct Download (Recommended)
-Download the extension from here:
-👉 Download Font Master
-Open Chrome and go to:
-chrome://extensions/
-Enable Developer Mode (top right)
-Click Load unpacked
-Select the downloaded folder
+## 🚀 About
 
-✅ Done! Font Master is ready to use.
+**Font Master** is a powerful Chrome extension that lets you override fonts on *any website* with your preferred style.
 
-Option 2: Clone the Repository
-git clone https://github.com/your-username/font-master.git
+Whether you want better readability, aesthetics, or personalization — Font Master gives you full control.
 
-Then follow the same steps from Step 2 above.
+---
 
-🛠️ How It Works
-The extension injects custom CSS into webpages
-Overrides default fonts with your selected font
-Applies changes instantly across all tabs
-🎯 Use Cases
-Improve readability 📖
-Personalize browsing 🎨
-Reduce eye strain 👀
-Make boring sites look cool 😎
-📌 Tech Stack
-JavaScript
-CSS
-Chrome Extension APIs
-🤝 Contributing
+## 🔥 Features
+
+- 🎨 Apply custom fonts to all websites  
+- ⚡ Real-time font switching  
+- 🌐 Works on every webpage  
+- 🧠 Lightweight & fast  
+- 🔧 Simple and clean UI  
+
+---
+
+## 📦 Download
+
+👉 **[Download Font Master](https://www.mediafire.com/file/eqk8vm5u7kxzw9w/FontSwap.zip/file)**
+
+---
+
+## ⚙️ Installation
+
+1. Download the extension
+2. Extract the Extension
+3. Open Chrome → `chrome://extensions/`  
+4. Enable **Developer Mode**  
+5. Click **Load Unpacked**  
+6. Select the extension folder which was extracted before
+
+✅ You're ready to go!
+
+---
+
+## 🛠️ How It Works
+
+Font Master injects custom CSS into webpages and overrides the default fonts with your selected font — instantly across all tabs.
+
+---
+
+## 🎯 Why Use Font Master?
+
+- Improve readability 📖  
+- Customize your browsing 🎨  
+- Reduce eye strain 👀  
+- Make boring websites look amazing 😎  
+
+---
+
+## 🧪 Tech Stack
+
+- JavaScript  
+- CSS  
+- Chrome Extension APIs  
+
+---
+
+## 💡 Roadmap
+
+- [ ] Font preview before applying  
+- [ ] Google Fonts integration  
+- [ ] Per-site font settings  
+- [ ] Dark mode UI  
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
+1. Fork the repo
+2. Create your branch
+3. Make changes
+4. Submit a PR
 
-Fork the repo
-Create a new branch
-Make your changes
-Submit a PR
-⭐ Support
-
-If you like this project:
-
-👉 Star the repo
-👉 Share with friends
-👉 Give feedback
-
-📄 License
-
-This project is licensed under the MIT License
-
-💡 Future Improvements
-Font preview before applying
-Google Fonts integration
-Per-site font customization
-Dark mode UI
-
-Made with ❤️ by Aditya
+---
