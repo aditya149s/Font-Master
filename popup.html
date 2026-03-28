@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FontMaster</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Oswald:wght@400;700&family=Raleway:wght@400;700&family=Merriweather:wght@400;700&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;700&family=Rubik:wght@400;700&family=DM+Sans:wght@400;700&family=Quicksand:wght@400;700&family=Barlow:wght@400;700&family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="popup">
+    <!-- Animated Background Mesh -->
+    <div class="mesh"></div>
+    <div class="mesh mesh-2"></div>
+
+    <!-- Header -->
+    <div class="header">
+      <div class="brand">
+        <span class="brand-icon">✦</span>
+        <span class="title">FontMaster</span>
+      </div>
+      <label class="toggle-pill" id="toggleLabel" title="Enable/Disable FontMaster">
+        <input type="checkbox" id="masterToggle">
+        <span class="pill-track">
+          <span class="pill-thumb"></span>
+        </span>
+      </label>
+    </div>
+
+    <!-- Section Label -->
+    <div class="section-label">CHOOSE FONT</div>
+
+    <!-- Font Carousel -->
+    <div class="carousel-wrapper">
+      <div class="carousel" id="fontCarousel">
+        <!-- Font items injected by JS -->
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider-row">
+      <div class="divider-line"></div>
+      <span class="divider-text">or search</span>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- Carved Search Bar -->
+    <div class="search-container">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="customFont" class="search-input" placeholder="Type a Google Font name..." autocomplete="off">
+      <div class="blink-cursor"></div>
+    </div>
+
+    <!-- Excluded Sites Section -->
+    <div class="section-label" style="margin-top: 20px;">EXCLUDED SITES</div>
+    <div class="exclusion-zone" id="excludedZone">
+      <!-- Bubbles injected by JS -->
+      <div class="empty-state" id="emptyState">No sites excluded</div>
+    </div>
+
+    <!-- Exclude Current Site Button -->
+    <button class="exclude-btn" id="excludeSite">
+      <span class="exclude-icon">⊘</span>
+      Exclude Current Site
+    </button>
+
+    <!-- Floating Action Button (Apply) -->
+    <button class="fab" id="applyAll">
+      <span class="fab-shine"></span>
+      <span class="fab-label">APPLY TO ALL SITES</span>
+    </button>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

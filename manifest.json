@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "FontMaster",
+  "version": "1.0",
+  "description": "Globally change the font of every website using Google Fonts.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/FontSwap.png",
+      "48": "icons/FontSwap.png",
+      "128": "icons/FontSwap.png"
+    }
+  },
+  "icons": {
+    "16": "icons/FontSwap.png",
+    "48": "icons/FontSwap.png",
+    "128": "icons/FontSwap.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
